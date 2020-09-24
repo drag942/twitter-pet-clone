@@ -81,7 +81,7 @@ export const useStylesSignIn = makeStyles((theme) => ({
 
 
 
-const SignIn = ():React.ReactElement => {
+export const SignIn:React.FC = ():React.ReactElement => {
 
     const classes = useStylesSignIn();
 
@@ -228,5 +228,3 @@ const SignIn = ():React.ReactElement => {
         </div>
     );
 };
-
-export default SignIn;
